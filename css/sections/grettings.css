@@ -6,17 +6,40 @@
 
 .grettings__content {}
 
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo {}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
 
-.nav__item {}
+.nav__item {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
 
-.square {}
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.nav__item:last-child{
+    border: 2px solid white;
+    padding: 11px 17px;
+    border-radius: 4px;
+}
 
 .grettings__desc {}
 
