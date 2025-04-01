@@ -1,0 +1,33 @@
+.party {
+    margin-top: 151px;
+}
+
+.party__contant {
+    display: flex;
+    justify-content: space-between;
+}
+
+.party__info-block {
+    max-width: 480px;
+}
+
+.party__text {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5ab963;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.party__text::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #5ab963;
+    display: inline-block;
+}
